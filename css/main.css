@@ -14,7 +14,7 @@ table {
 
 input {
     min-width: 100px;
-    color:dimgray;
+    color:dimgray !important;
 
 }
 
