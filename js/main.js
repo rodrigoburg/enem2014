@@ -57,6 +57,8 @@ function desenha_tabela(dados,callback) {
 function cria_datable() {
     table = $('#tabela_real').DataTable({
         "lengthMenu": [[10,25, 50, 100, 150], [10, 25, 50, 100, 150]],
+        "order": [[ 5, "desc" ]],
+
         "language": {
             "lengthMenu": "Mostrar _MENU_ linhas por página",
             "zeroRecords": "Não foi encontrado nenhum item",
